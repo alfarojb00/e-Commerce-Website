@@ -1,0 +1,247 @@
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    
+    /* navbar settings mobile */
+    #nav-header .carticon{
+        position:relative;
+        left: 18px;
+        top:8px;
+    }
+    #nav-header .loginnav{
+        position:relative;
+        left: 10px; 
+        top:8px;
+    }
+    #nav-header .signinnav{
+        position:relative;
+        top:8px;
+    }
+    #nav-header .LOGO{
+        float:left;   
+        position:relative;
+        left:-12px;
+        bottom:8px;
+      }
+    #navbar-collapse{
+        display:none;
+        background-color: #044e23;
+        align-items: right;
+        text-align: right;   
+        height: 220 px;
+      }
+      
+    /* end of navbar settings */
+
+    /* footer settings mobile */
+    #footerset .footer__about__logo{
+        display:flex;
+        flex-direction: center;
+        align-items: top;
+        position:relative;  
+        right:5%;
+        width:200px;
+    }
+    .footertext1{
+        position:relative;
+        top: 52px;
+        left: 20px;
+
+    }
+    #footerset .footertext2{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+       
+        
+    }
+    #footerset .footertext3{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+
+        
+    }
+    .footer__copyright{
+        background-color: #CFE8A9   ;
+        position:relative;  
+        font-family:"open sans";
+        height: 60px;
+        
+    }
+    .footer__copyright__text{
+        position: relative;
+        bottom:13px;
+        right: 3%;
+    }
+    .btn-danger{
+        color:green;
+    }
+    /* end of footer settings */
+
+    /* start cart view settings mobile */
+    #cartviewset .box-body{
+        display: block;
+        align-items:center ;
+        align-content: center;
+        justify-content: center;
+
+    }
+    #cartviewset .table thead{
+       display: none;
+        
+    }
+    #cartviewset .table, .table td, .table body, .table tr{
+        display:block;
+        text-align: left;    
+       
+    }
+    
+    .table td.input-group, .form-control{
+        display: block;
+        
+        text-align: center; 
+        
+    }
+
+  /* end cart view settings mobile */
+  
+   /* start login settings mobile */
+  /*  .login-box-body {*/
+  /*  position:relative; */
+  /*  margin-top: 40%;*/
+  /*  margin-left:20%;*/
+    
+    
+  /*}*/
+ /* end login settings mobile */
+
+  /* start signup settings mobile */
+  /*  #signupset .register-box{*/
+  /*  position:relative; */
+  /*  top: 100px;*/
+  /*  right: 200px;*/
+  /*  margin-top: 40%;*/
+  /*  margin-left:20%;*/
+  /*  width:280px;*/
+   
+  /*}*/
+  
+  /* end signup settings mobile */
+
+      /* start myshop distri settings mobile */
+      
+      /* end  myshop distri settings mobile */
+     
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768.98px) { 
+   
+    
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    /* navbar settings mobile */
+    #nav-header .carticon{
+        position:relative;
+        left: 18px;
+        top:8px;
+    }
+    #nav-header .loginnav{
+        position:relative;
+        left: 10px; 
+        top:8px;
+    }
+    #nav-header .signinnav{
+        position:relative;
+        top:8px;
+    }
+    #nav-header .LOGO{
+        float:left;   
+        position:relative;
+        left:-12px;
+        bottom:8px;
+      }
+    #navbar-collapse{
+        width: auto;
+      }
+      
+    /* end of navbar settings */
+
+    /* footer settings mobile */
+    #footerset .footer__about__logo{
+        display:flex;
+        flex-direction: center;
+        align-items: top;
+        position:relative;  
+        right:5%;
+        width:200px;
+    }
+    .footertext1{
+        position:relative;
+        top: 52px;
+        left: 20px;
+
+    }
+    #footerset .footertext2{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+       
+        
+    }
+    #footerset .footertext3{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+
+        
+    }
+    .footer__copyright{
+        background-color: #CFE8A9   ;
+        position:relative;  
+        font-family:"open sans";
+        height: 60px;
+        
+    }
+    .footer__copyright__text{
+        position: relative;
+        bottom:13px;
+        right: 3%;
+    }
+    /* end of footer settings */
+    /* start login settings mobile */
+    #loginset .login-box {
+        
+        
+      }
+      /* start login settings mobile */
+
+      /* start signup settings mobile */
+    #signupset .register-box{
+        position:relative; 
+        top: 100px;
+        right: 200px;
+        margin-top: 40%;
+        margin-left:20%;
+        width:280px;
+       
+      }
+      
+      /* end signup settings mobile */
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
+
+

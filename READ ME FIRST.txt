@@ -1,0 +1,11 @@
+admin 
+user: admin@admin.com	
+password:	
+
+Distributor
+curry@gmail.com
+123
+
+Reseller
+lebron@gmail.com
+123

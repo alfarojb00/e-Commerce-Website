@@ -1,0 +1,17 @@
+
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "google/apiclient": "2.12.1",
+        "google/auth": "^1.9"
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Forms"
+            
+        ]
+    }
+}
